@@ -1,3 +1,4 @@
+const log = require('./log');
 module.exports = options => {
   if (!options.every( option => {
     if (!option.weight) option.weight = 1;
@@ -10,10 +11,10 @@ module.exports = options => {
   const seed = Math.random();
   const weightedSeed = seed * weightTotal;
 
-  console.log(
+  log(
     "seed", seed,
-    "weightedSeed", weightedSeed,
-    "weightTotal", weightTotal
+    "weighted", weightedSeed,
+    "total", weightTotal
   );
 
   let runningTotal = 0;

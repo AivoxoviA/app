@@ -1,4 +1,5 @@
-console.log(`...initializing discord bot...`);
+const log = require('../utils/log');
+log.info(`initializing discord bot`);
 
 const fs = require('node:fs');
 const { Client, Intents, Collection } = require('discord.js');
@@ -14,11 +15,11 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-	console.log('Discord Bot Ready!');
+	log.info('Discord Bot Ready!');
 });
 
 client.on('interactionCreate', async interaction => {
-  console.log(`interactionCreate - command:`, interaction.commandName);
+  log(`interactionCreate - command:`, interaction.commandName);
 	if (!interaction.isCommand()) return;
   const command = client.commands.get(interaction.commandName);
 	if (!command) return;
