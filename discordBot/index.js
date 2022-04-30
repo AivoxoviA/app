@@ -27,9 +27,14 @@ client.on('interactionCreate', async interaction => {
 	} catch (error) {
 		console.error(error);
 		await interaction.reply({
-      content: 'There was an error while executing this command!', ephemeral: true
+      content: 'There was an error while executing this command!'
+      , ephemeral: true
     });
 	}
+});
+
+process.on('unhandledRejection', error => {
+	console.error('Unhandled promise rejection:', error);
 });
 
 client.login(discordBot.token);
