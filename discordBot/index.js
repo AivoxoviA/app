@@ -3,7 +3,21 @@ log.info(`initializing discord bot`);
 
 const fs = require('node:fs');
 const { Client, Intents, Collection } = require('discord.js');
-const { discordBot } = require('../config.json');
+
+const configFile = '../config.json';
+let config = {};
+try {
+  config = require(configFile);
+} catch(e) {
+  log.warn(e);
+  try {
+    config = JSON.parse(process.env.config);
+  } catch(e) {
+    log.error(e);
+    process.exit(1);
+  }
+}
+const { discordBot } = config;
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 client.commands = new Collection();
