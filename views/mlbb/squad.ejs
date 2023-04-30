@@ -44,7 +44,7 @@ img {margin-bottom: -7px}
 </div>
 
 <div class="w3-center">
-  <button>
+  <button onclick="copySquadID()">
     Squad ID:
     <code>5343513</code>
     <img src="/images/copy.png" style="
@@ -67,6 +67,12 @@ img {margin-bottom: -7px}
 </div>
  
 <script>
+
+  function copySquadID() {
+    let id = '5343513';
+    navigator.clipboard.writeText(id);
+    alert("Copied the text: " + id);
+  }
 // Open and close sidebar
 function w3_open() {
   document.getElementById("mySidebar").style.width = "100%";
