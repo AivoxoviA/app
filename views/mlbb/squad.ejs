@@ -17,10 +17,14 @@ https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js
 "></script>
 </head>
 
-<body>
+<body style='position: relative'>
 
 <!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="
+  display:none;
+  padding-top:150px;
+  position absolute;
+" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
     <i class="fa fa-remove"></i>
   </a>
@@ -33,20 +37,36 @@ https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js
 </nav>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+<div class="w3-content" style="
+  max-width:1500px;
+  position: absolute;
+  top: 0;
+">
 
 <!-- Header -->
 <div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<span class="
+  w3-button w3-xxlarge w3-white w3-right
+" style="
+  position: relative;
+  z-index: 100;
+" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
 <div class="w3-clear"></div>
 
-<header class="w3-center w3-margin-bottom">
-  <h1><b><a href="/">AivoxoviA</a></b></h1>
+<header class="w3-center w3-margin-bottom" style="
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+">
+  <h1 style="
+    position: relative;z-index: 0;
+  "><b><a href="/">AivoxoviA</a></b></h1>
   <p><b>Let's go to Glory!</b></p>
 </header>
 </div>
 
-<div class="w3-center">
+<div class="w3-center" style="margin-top: 48px">
   <button class='btn' data-clipboard-text="5343513">
     Squad ID:
     <code>5343513</code>
@@ -56,13 +76,11 @@ https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js
   </button> copy the squad id by clicking...
   <br/>
   &downarrow;
-  <p>Open your MLBB, and click on squad button</p>
+  <br/>
   <img src="/images/mlbb/home.jpg" style="max-width: 100%;">
   <br/>
-  &downarrow;
   <img src="/images/mlbb/squad-search.jpg" style="max-width: 100%;">
   <br/>
-  &downarrow;
   <img src="/images/mlbb/squad-found.jpg" style="max-width: 100%;">
 </div>
 
