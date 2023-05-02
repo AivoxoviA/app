@@ -2,7 +2,6 @@ console.log('discord bot loading...');
 
 const { Client, Events, GatewayIntentBits } = require('discord.js');
 let token;
-console.log(token);
 
 const fs = require('fs');
 const configFile = 'config.json';
