@@ -37,9 +37,32 @@
 		text-align: center;
 		z-index: 0;
 	}
+
+	.heroes > div {
+		height: 150px;
+		margin: 4px 0px 0px 4px;
+		display: inline-block;
+		position: relative;
+	}
+	.heroes > div > img {
+		height: 100%;
+	}
+	.heroes > div > div {
+		box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    left: 0px;
+    background: rgba( 0, 0, 0, .5275);
+    color: white;
+	}
 </style>
 </head>
 <body>
+
+<div class="heroes"></div>
 
 <header>
 <a class="mlbb" href="/mlbb">
@@ -48,6 +71,26 @@
 <a class="app" href="/">AivoxoviA</a>
 </header>
 
+<div id="heroesTpl">
+	<img src="">
+	<div></div>
+</div>
+
+<script>
+const heroes = <%- JSON.stringify(heroes) %>;
+console.log(heroes);
+for (let i = 0; i < heroes.length; i++) {
+	const hero = heroes[i];
+	const el = document.getElementById('heroesTpl');
+	const cloned = el.cloneNode(true);
+	cloned.id = 'heroID' + hero.id;
+	cloned.getElementsByTagName(
+		'img'
+	)[0].src = `/images/mlbb/heroes/${hero.id}.jpg`;
+	cloned.getElementsByTagName('div')[0].innerHTML = hero.name;
+	document.getElementsByClassName('heroes')[0].appendChild(cloned);
+}
+</script>
 
 </body>
 </html>
