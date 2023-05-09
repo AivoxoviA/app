@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AivoxoviA</title>
+<meta charset="UTF-8">
+<link rel="icon" href="/images/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {
+  height: 100%;
+}
+.bgimg {
+  background: #917FB3;
+  min-height: 100%;
+  background-position: center;  
+  background-size: cover;
+}
+.w3-text-white, .w3-hover-text-white:hover {
+  color: #2A2F4F !important;
+}
+.grup-link { text-align:center; }
+.grup-link > .item > img {
+  width: 64px; 
+}
+
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <!--
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  -->
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">AivoxoviA</h1>
+    <!--<p class="w3-large w3-center">Let's go to Glory!</p>-->
+    <hr class="w3-border-yellow" style="width:100%">
+
+    <br/>
+
+    <div style="text-align: center;margin: 8px;">
+      <span>
+        <img style="width: 48px;" src="/images/logo.png">
+      </span>
+      &nbsp;&nbsp;&nbsp;
+      <span>
+        <a href="/mlbb/squad">
+          <button
+            style="
+              font-size: 16px;padding: 8px 16px;position: relative;
+            "
+          >
+            Our MLBB Squad
+            <img style="
+              width: 32px;
+              position: absolute;
+              right: 0;
+              top: 0;
+            " src="/images/new.png">
+          </button>
+        </a>
+      </span>
+    </div>
+    
+    <br/>
+    <hr class="w3-border-yellow" style="width:100%">
+    <br/>
+
+    <div class="grup-link">
+      <sub
+        class="w3-large w3-center"
+        style="color: white;font-size: 14px !important;"
+      >Join and chat with us @</sub>
+      <br/><br/>
+      <a
+        href="https://discord.gg/cG6cpqFqMY"
+        class="item"
+      ><img src="/images/discord.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+        style="font-size: 32px;color: yellow;"
+      >&middot;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+        href="https://chat.whatsapp.com/ILt29KfryTsKgj527I34He"
+        class="item"
+      ><img src="/images/whatsapp.png"></a>
+    </div>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
+
+</body>
+</html>

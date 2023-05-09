@@ -24,9 +24,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+/*
+### stalled project
 app.use('/users', usersRouter);
 app.use('/mlbb', mlbbRouter);
 app.use('/mlbb/squad', mlbbSquadRouter);
+*/
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

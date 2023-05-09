@@ -6,21 +6,7 @@ const {
 	Client, Collection, Events, GatewayIntentBits
 } = require('discord.js');
 
-const configFile = 'config.json';
-let token;
-
-try {
-	if (fs.existsSync(`./${configFile}`)) {
-		token = require(`../../${configFile}`).discord.bot.token;
-	} else if (process.env.config) {
-		console.log('using config env vars');
-		token = JSON.parse(process.env.config).discord.bot.token; 
-	} else {
-		throw new Error('config couldn\'t be loaded!');
-	}
-} catch (e) {
-	console.error(e);
-}
+const token = require('./../../core/getConfig').discord.bot.token;
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 

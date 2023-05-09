@@ -8,5 +8,12 @@
 			"clientId": "client-id",
 			"guildId": "guild-id"
 		}
+	},
+	"check": {
+		"is": {
+			"this": {
+				"ok": true
+			}
+		}
 	}
 }
