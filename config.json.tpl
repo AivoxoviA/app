@@ -9,6 +9,11 @@
 			"guildId": "guild-id"
 		}
 	},
+	"mongodb": {
+		"user": "user",
+		"pass": "****",
+		"server": "cluster0.something.mongodb.net"
+	},
 	"check": {
 		"is": {
 			"this": {
