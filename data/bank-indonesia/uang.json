@@ -1,0 +1,142 @@
+[
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2016
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2016
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Kertas",
+    "te": 2016
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2016
+  },
+  {
+    "nominal": 5000,
+    "tipe": "Kertas",
+    "te": 2016
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Kertas",
+    "te": 2016
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Kertas",
+    "te": 2016
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2005
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2005
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Kertas",
+    "te": 2009
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2010
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Kertas",
+    "te": 2011
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2011
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2011
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2014
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2022
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2022
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Kertas",
+    "te": 2022
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2022
+  },
+  {
+    "nominal": 5000,
+    "tipe": "Kertas",
+    "te": 2022
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Kertas",
+    "te": 2022
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Kertas",
+    "te": 2022
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Koin",
+    "te": 2016
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Koin",
+    "te": 1993
+  },
+  {
+    "nominal": 500,
+    "tipe": "Koin",
+    "te": 2016
+  },
+  {
+    "nominal": 200,
+    "tipe": "Koin",
+    "te": 2016
+  },
+  {
+    "nominal": 100,
+    "tipe": "Koin",
+    "te": 2016
+  },
+  {
+    "nominal": 50,
+    "tipe": "Koin",
+    "te": 1999
+  }
+]

@@ -1,0 +1,18 @@
+<html>
+<head>
+	<link rel="icon" href="/images/logo.png">
+	<title>Uang - <%= title %></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="<%= themeColor %>" />
+	<style>
+		body {
+			background: <%= themeColor %>;
+		}
+	</style>
+</head>
+<body>
+	<pre>
+		<%- JSON.stringify(uang, null, 2) %>
+	</pre>
+</body>
+</html>

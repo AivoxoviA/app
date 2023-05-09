@@ -7,9 +7,13 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+var uangRouter = require('./routes/uang');
+/*
+### stalled project
 var usersRouter = require('./routes/users');
 var mlbbSquadRouter = require('./routes/mlbb/squad');
 var mlbbRouter = require('./routes/mlbb');
+*/
 
 var app = express();
 
@@ -24,6 +28,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+
+app.use('/uang', uangRouter);
 /*
 ### stalled project
 app.use('/users', usersRouter);
