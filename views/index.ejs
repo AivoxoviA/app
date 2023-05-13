@@ -4,6 +4,9 @@
 	<title><%= title %></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="<%= themeColor %>" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
 	<style>
 		body {
 			text-align: center;
@@ -13,11 +16,28 @@
 			display: inline-block;
 			width: 256px;
 		}
+		h1 {
+			font-family: Raleway;
+			font-size: 64px;
+		}
+
+		@media only screen and (max-width: 600px) {
+		  h1 {
+		  	font-size: 32px;
+		  }
+		  body img {
+				width: 128px;
+		  }
+		}
 	</style>
 </head>
 <body>
 	<br/><br/><br/>
+	<h1>Under Construction</h1>
 	<img src="/images/under-construction.png">
-	<h1>Work in Progress</h1>
+	<p>
+		Our website is under construction, but we are ready to go! Special surprise for our subscribers only
+		<a href="mailto:yuulye@gmail.com?subject=Hello&body=Just send this :)"><button>notify me!</button></a>
+	</p>
 </body>
 </html>

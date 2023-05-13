@@ -1,24 +1,12 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
-
 var app = require('../app');
 var debug = require('debug')('app:server');
 var http = require('http');
 
-/**
- * Get port from environment and store in Express.
- */
-
 var port = normalizePort(process.env.PORT || '3000');
 console.log('port', port);
 app.set('port', port);
-
-/**
- * Create HTTP server.
- */
 
 var server = http.createServer(app);
 
@@ -28,23 +16,20 @@ const ws = require('ws');
 let wss = new ws.Server({ server: server });
 
 wss.on('connection', function(ws, req) {
-    ws.on('message', message => { // If there is any message
+    ws.on('message', message => {
         var datastring = message.toString();
-        if(datastring.charAt(0) == "{"){ // Check if message starts with '{' to check if it's json
+        if(datastring.charAt(0) == "{"){
             datastring = datastring.replace(/\'/g, '"');
             var data = JSON.parse(datastring);
             console.log(data);
             if(data.auth == "chatappauthkey231r4"){
-                // TODO: Create login function
               if (data.cmd === 'signup'){ // On Signup
-                // If mail doesn't exists it will return null
                 User.findOne({email: data.email}).then((mail) => {
                   // Check if email doesn't exist.
                   if (mail == null){
                     User.findOne({
                       username: data.username
                     }).then((user) => {
-                      // Check if username doesn't exists.
                       if (user == null){
                         const hash = crypto.createHash("md5")
                         let hexPwd = hash.update(
@@ -57,19 +42,15 @@ wss.on('connection', function(ws, req) {
                           username: data.username,
                           password: hexPwd,
                         });
-                        // Insert new user in db
                         user.save();
-                        // Send info to user
                         ws.send(signupData);
                       } else{
-                        // Send error message to user.
                         var signupData = "{'cmd':'"
                           +data.cmd+"','status':'user_exists'}";  
                         ws.send(signupData);  
                       }
                     });
                   } else{
-                    // Send error message to user.
                     var signupData = "{'cmd':'"
                       +data.cmd+"','status':'mail_exists'}";    
                     ws.send(signupData);
@@ -78,34 +59,26 @@ wss.on('connection', function(ws, req) {
               }
 
               if (data.cmd === 'login'){
-                // Check if email exists 
                 User.findOne({email: data.email}).then((r) => {
-                  // If email doesn't exists it will return null
                   if (r != null){
                     console.log(r);
                     const hash = crypto.createHash("md5")
-                    // Hash password to md5
                     let hexPwd = hash.update(
                       data.hash
                     ).digest('hex');
-                    // Check if password is correct
                     console.log(hexPwd, r.password);
                     if (hexPwd == r.password) {
-                      // Send username to user and status code is succes.
                       var loginData = '{"username":"'
                         +r.username+'","status":"success"}';
                       console.log('aaaaaaaaa');
-                      // Send data back to user
                       ws.send(loginData);
                     } else{
-                      // Send error
                       var loginData = '{"cmd":"'
                         +data.cmd+'","status":"wrong_pass"}';
                       console.log('bbbbbbbbb');
                       ws.send(loginData);
                     }
                   } else{
-                    // Send error
                     var loginData = '{"cmd":"'
                       +data.cmd+'","status":"wrong_mail"}';
                     ws.send(loginData);
@@ -117,49 +90,31 @@ wss.on('connection', function(ws, req) {
         }
     }) 
 });
-/**
- * Listen on provided port, on all network interfaces.
- */
 
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+/* error! fix this */
 server.on('request', app);
-
-/**
- * Normalize a port into a number, string, or false.
- */
 
 function normalizePort(val) {
   var port = parseInt(val, 10);
-
   if (isNaN(port)) {
-    // named pipe
     return val;
   }
-
   if (port >= 0) {
-    // port number
     return port;
   }
-
   return false;
 }
-
-/**
- * Event listener for HTTP server "error" event.
- */
 
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
   }
-
   var bind = typeof port === 'string'
     ? 'Pipe ' + port
     : 'Port ' + port;
-
-  // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
       console.error(bind + ' requires elevated privileges');
@@ -173,10 +128,6 @@ function onError(error) {
       throw error;
   }
 }
-
-/**
- * Event listener for HTTP server "listening" event.
- */
 
 function onListening() {
   var addr = server.address();
