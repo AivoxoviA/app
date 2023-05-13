@@ -1,12 +1,15 @@
-const url = 'https://www.bi.go.id/id/rupiah/gambar-uang/Default.aspx';
+const base = 'www.bi.go.id';
+const url = `https://${base}/id/rupiah/gambar-uang/Default.aspx`;
 const axios = require('axios'), cheerio = require('cheerio');
 const fs = require('fs');
 
 class Uang {
-	constructor(nominal, tipe, te) {
+	constructor(nominal, tipe, te, img, judul) {
 		this.nominal = nominal;
 		this.tipe = tipe;
 		this.te = te;
+		this.img = img;
+		this.judul = judul;
 	}
 }
 
@@ -19,16 +22,24 @@ async function main() {
 	let count = 1;
 	$(".about__content-images-replace-dewan-gubernur-1").each(
 		(index, element) => {
-		if (skip) return false; 
-		const img = $(element).attr("style").match(/\((.*?)\)/)[1];
+		//if (skip) return false; 
+		const img = ($(element).attr("style").match(/\((.*?)\)/)[1]).replace(/^'(.*)'$/, '$1');
 		const type = $(element).find("h2").text();
 		const info = $(element).find("p").text();
-		//console.log(img);
 
+		console.log(type, '&', info);
+		let tipe = type.split(' ')[2];
+		let te = parseInt(info.split(' ')[1]);
+		if (!tipe) {
+			tipe = 'Khusus';
+			te = info;
+		}
 		const uang = new Uang(
 			parseInt(type.split(' ')[1].replace('.', ''))
-			, type.split(' ')[2]
-			, parseInt(info.split(' ')[1])
+			, tipe
+			, te
+			, img
+			, type
 		);
 
 		data.push(uang);

@@ -8,11 +8,64 @@
 		body {
 			background: <%= themeColor %>;
 		}
+		.content > div {
+			display: inline-block;
+			height: 120px;
+			width: 120px;
+			border: 1px solid rgba(0, 0, 0, 0.5175);
+			background: rgba(0, 0, 0, .125);
+			font-size: 12px;
+		}
+		.content > div > div {
+			margin: auto;
+			display: table;
+			height: 100%;
+		}
+		.content > div > div > div {
+			display: table-cell;
+			vertical-align: middle;
+
+			padding-right: 4px;
+			padding-bottom: 4px;
+			margin-right: 4px;
+			margin-bottom: 4px;
+			text-align: center;
+		}
+		.content > div > div > div > img {
+			height: 48px;
+		}
 	</style>
+	<script>
+		const data = <%- JSON.stringify(uang, null, 2) %>
+	</script>
 </head>
 <body>
-	<pre>
-		<%- JSON.stringify(uang, null, 2) %>
-	</pre>
+	<h1>
+		<a href="/">Beranda</a>
+		> Uang
+	</h1>
+	<div class="content"></div>
+	<div id="uangTpl">
+		<div>
+			<div>
+				<img>
+				<br/><br/>
+				<b></b>
+			</div>
+		</div>
+	</div>
+	<script>
+		for (let i = 0; i < data.length; i++) {
+			const uang = data[i];
+			const el_ = document.getElementById('uangTpl');
+			const el = el_.cloneNode(true);
+			el.id = 'uangId#' + i;
+			el.getElementsByTagName(
+				'div'
+			)[0].getElementsByTagName('div')[0].getElementsByTagName('img')[0].src = uang.img;
+			el.getElementsByTagName('b')[0].innerHTML = uang.judul;
+			document.getElementsByClassName('content')[0].appendChild(el);
+		}
+	</script>
 </body>
 </html>
