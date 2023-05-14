@@ -62,7 +62,11 @@
 			el.id = 'uangId#' + i;
 			el.getElementsByTagName(
 				'div'
-			)[0].getElementsByTagName('div')[0].getElementsByTagName('img')[0].src = uang.img;
+			)[0].getElementsByTagName(
+				'div'
+			)[0].getElementsByTagName(
+				'img'
+			)[0].src = `/images/uang-compressed/uang-${i}.jpg`;
 			el.getElementsByTagName('b')[0].innerHTML = uang.judul;
 			document.getElementsByClassName('content')[0].appendChild(el);
 		}
