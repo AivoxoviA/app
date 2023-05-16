@@ -1,0 +1,409 @@
+[
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2022,
+    "img": "https://www.bi.go.id/Gambar%20Uang/TE2022/TE-2022-100000-depan.JPG",
+    "judul": "Rp 100.000 Kertas",
+    "id": 0,
+    "alt": [
+      0,
+      7,
+      14,
+      15
+    ]
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2022,
+    "img": "https://www.bi.go.id/Gambar%20Uang/TE2022/TE-2022-50000-depan.JPG",
+    "judul": "Rp 50.000 Kertas",
+    "id": 1,
+    "alt": [
+      1,
+      8,
+      16,
+      20
+    ]
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Kertas",
+    "te": 2022,
+    "img": "https://www.bi.go.id/Gambar%20Uang/TE2022/TE-2022-20000-depan.JPG",
+    "judul": "Rp 20.000 Kertas",
+    "id": 2,
+    "alt": [
+      2,
+      9,
+      17
+    ]
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2022,
+    "img": "https://www.bi.go.id/Gambar%20Uang/TE2022/TE-2022-10000-depan.JPG",
+    "judul": "Rp 10.000 Kertas",
+    "id": 3,
+    "alt": [
+      3,
+      10,
+      18,
+      21
+    ]
+  },
+  {
+    "nominal": 5000,
+    "tipe": "Kertas",
+    "te": 2022,
+    "img": "https://www.bi.go.id/Gambar%20Uang/TE2022/TE-2022-5000-depan.JPG",
+    "judul": "Rp 5.000 Kertas",
+    "id": 4,
+    "alt": [
+      4,
+      11
+    ]
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Kertas",
+    "te": 2022,
+    "img": "https://www.bi.go.id/Gambar%20Uang/TE2022/TE-2022-2000-depan.JPG",
+    "judul": "Rp 2.000 Kertas",
+    "id": 5,
+    "alt": [
+      5,
+      12,
+      19
+    ]
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Kertas",
+    "te": 2022,
+    "img": "https://www.bi.go.id/Gambar%20Uang/TE2022/TE-2022-1000-depan.JPG",
+    "judul": "Rp 1.000 Kertas",
+    "id": 6,
+    "alt": [
+      6,
+      13
+    ]
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/100000-TE2016-depan.jpg",
+    "judul": "Rp 100.000 Kertas"
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/50000-TE2016-depan.jpg",
+    "judul": "Rp 50.000 Kertas"
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Kertas",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/20000-TE2016-depan.jpg",
+    "judul": "Rp 20.000 Kertas"
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/10000-TE2016-depan.jpg",
+    "judul": "Rp 10.000 Kertas"
+  },
+  {
+    "nominal": 5000,
+    "tipe": "Kertas",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/5000-TE2016-depan.jpg",
+    "judul": "Rp 5.000 Kertas"
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Kertas",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/2000-TE2016-depan.jpg",
+    "judul": "Rp 2.000 Kertas"
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Kertas",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/1000-TE2016-depan.jpg",
+    "judul": "Rp 1.000 Kertas"
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2014,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/100Ribu%20Depan%20-%202014.JPG",
+    "judul": "Rp 100.000 Kertas"
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Kertas",
+    "te": 2011,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/100000_2011a.png",
+    "judul": "Rp 100.000 Kertas"
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2011,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/50000_2011a.png",
+    "judul": "Rp 50.000 Kertas"
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Kertas",
+    "te": 2011,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/20000_2011a.png",
+    "judul": "Rp 20.000 Kertas"
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2010,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/10000_2010a.png",
+    "judul": "Rp 10.000 Kertas"
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Kertas",
+    "te": 2009,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/2Ribu%20Depan%20-%202009.JPG",
+    "judul": "Rp 2.000 Kertas"
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Kertas",
+    "te": 2005,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/50000_2005a.png",
+    "judul": "Rp 50.000 Kertas"
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Kertas",
+    "te": 2005,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasLama/10000_2005a.png",
+    "judul": "Rp 10.000 Kertas"
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Koin",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/1000%20depan_00000.png",
+    "judul": "Rp 1.000 Koin",
+    "id": 22,
+    "alt": [
+      22,
+      27
+    ]
+  },
+  {
+    "nominal": 500,
+    "tipe": "Koin",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/500%20depan_00000.png",
+    "judul": "Rp 500 Koin",
+    "id": 23,
+    "alt": [
+      23
+    ]
+  },
+  {
+    "nominal": 200,
+    "tipe": "Koin",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/200%20depan_00000.png",
+    "judul": "Rp 200 Koin",
+    "id": 24,
+    "alt": [
+      24
+    ]
+  },
+  {
+    "nominal": 100,
+    "tipe": "Koin",
+    "te": 2016,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/100%20depan_00000.png",
+    "judul": "Rp 100 Koin",
+    "id": 25,
+    "alt": [
+      25
+    ]
+  },
+  {
+    "nominal": 50,
+    "tipe": "Koin",
+    "te": 1999,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/50%20-1999%20-Belakang%20new.png",
+    "judul": "Rp 50 Koin",
+    "id": 26,
+    "alt": [
+      26
+    ]
+  },
+  {
+    "nominal": 1000,
+    "tipe": "Koin",
+    "te": 1993,
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/1000%20-%201993%20-%20Belakang.png",
+    "judul": "Rp 1.000 Koin"
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal2-1.png",
+    "judul": "Rp 100.000"
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal3-1.png",
+    "judul": "Rp 100.000"
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal4-1.png",
+    "judul": "Rp 100.000"
+  },
+  {
+    "nominal": 100000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal5-1.png",
+    "judul": "Rp 100.000"
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal6-1.png",
+    "judul": "Rp 50.000"
+  },
+  {
+    "nominal": 50000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal7-1.png",
+    "judul": "Rp 50.000"
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal8-1.png",
+    "judul": "Rp 20.000"
+  },
+  {
+    "nominal": 20000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal9.png",
+    "judul": "Rp 20.000"
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal10-1.png",
+    "judul": "Rp 10.000"
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal11-1.png",
+    "judul": "Rp 10.000"
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal12-1.png",
+    "judul": "Rp 2.000"
+  },
+  {
+    "nominal": 2000,
+    "tipe": "Khusus",
+    "te": "Uncut Note",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertasUncut/Spesimen/hal14-1.png",
+    "judul": "Rp 2.000"
+  },
+  {
+    "nominal": 75000,
+    "tipe": "Khusus",
+    "te": "Uang Peringatan Kemerdekaan (UPK) 75",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Kertas/UangKertas2016TerbarudanUV/upk75-depan.jpg",
+    "judul": "Rp 75.000"
+  },
+  {
+    "nominal": 150000,
+    "tipe": "Khusus",
+    "te": "Children of the world",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/150000%20-%20Children%20of%20the%20World%20-%20Belakang.png",
+    "judul": "Rp 150.000"
+  },
+  {
+    "nominal": 10000,
+    "tipe": "Khusus",
+    "te": "Children of the world",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/10000%20-%20Children%20of%20the%20World%20-%20Belakang.png",
+    "judul": "Rp 10.000"
+  },
+  {
+    "nominal": 850000,
+    "tipe": "Khusus",
+    "te": "50 Tahun Kemerdekaan RI",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/850000%20-%2050%20Tahun%20Kemerdekaan%20-%20Depan.png",
+    "judul": "Rp 850.000"
+  },
+  {
+    "nominal": 300000,
+    "tipe": "Khusus",
+    "te": "50 Tahun Kemerdekaan RI",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/300000%20-%2050%20Tahun%20Kemerdekaan%20-%20Belakang.png",
+    "judul": "Rp 300.000"
+  },
+  {
+    "nominal": 500000,
+    "tipe": "Khusus",
+    "te": "100 tahun Pemimpin R.I.",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/500000%20-%20100%20Tahun%20Pemimpin%20Indonesia%20-%20Belakang.png",
+    "judul": "Rp 500.000"
+  },
+  {
+    "nominal": 500000,
+    "tipe": "Khusus",
+    "te": "100 tahun Pemimpin R.I.",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/500000%20-%20100%20Tahun%20Pemimpin%20Indonesia%20-%20Depan%202.png",
+    "judul": "Rp 500.000"
+  },
+  {
+    "nominal": 25000,
+    "tipe": "Khusus",
+    "te": "100 tahun Pemimpin R.I.",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/25000%20-%20100%20Tahun%20Kemerdekaan%20-%20Belakang.png",
+    "judul": "Rp 25.000"
+  },
+  {
+    "nominal": 25000,
+    "tipe": "Khusus",
+    "te": "100 tahun Pemimpin R.I.",
+    "img": "https://www.bi.go.id/id/rupiah/gambar-uang/PublishingImages/Lists/Uang%20Logam/UangLogamKhusus/25000%20-%20100%20Tahun%20Pemimpin%20Indonesia%20-%20Belakang.png",
+    "judul": "Rp 25.000"
+  }
+]
