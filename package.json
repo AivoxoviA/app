@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
+    "chalk": "^4.0.0",
     "cheerio": "^1.0.0-rc.12",
     "clipboard": "^2.0.11",
     "cookie-parser": "~1.4.4",
@@ -28,6 +29,12 @@
     "ws": "^8.13.0"
   },
   "devDependencies": {
-    "compress-images": "^2.0.5"
+    "cli-spinner": "^0.2.10",
+    "commander": "^10.0.1",
+    "compress-images": "^2.0.5",
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.5",
+    "mime-types": "^2.1.35",
+    "nodejs-file-downloader": "^4.12.1"
   }
 }
