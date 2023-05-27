@@ -32,7 +32,7 @@ const programsMap = {
       callback: (program) => {
         program
           .action(() => {
-            require(`./cli/index`);
+            require(`./cli/auth`);
           })
         ;
       }
