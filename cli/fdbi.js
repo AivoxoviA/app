@@ -1,4 +1,5 @@
 const chalk = require(`chalk`);
+const host = `https://www.bi.go.id`;
 
 const back = (user) => {
   console.log(`Returning to main menu...`);
@@ -9,7 +10,9 @@ const menus = [
   {
     text: `Fetch data uang and generate json data`,
     exe: (user) => {
-      options(user);
+      require(`./fdbi/web-crawl`).exe(host, () => {
+        options(user);
+      });
     },
   },
   {
@@ -48,7 +51,6 @@ const options = (user) => {
 };
 
 exports.main = (user) => {
-  const host = `https://www.bi.go.id`;
   console.log(`pinging ${
     chalk.green(host)
   }...`);
