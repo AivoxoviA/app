@@ -26,8 +26,8 @@ const programsMap = {
       }
     },
     {
-      name: `menu`,
-      desc: `Show available commands`,
+      name: `login`,
+      desc: `Log in to the system command line`,
       version: `0.0.0`,
       callback: (program) => {
         program

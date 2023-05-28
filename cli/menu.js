@@ -19,6 +19,9 @@ const menus = [
   },
   {
     text: `Fetch data from Bank Indonesia`,
+    exe: (user) => {
+      require(`./fdbi`).main(user);
+    },
   },
   {
     text: `Welcome screen`,
@@ -58,7 +61,7 @@ exports.menu = (user, skip) => {
         `Chosen number isn't available!`
       );
       const menu = menus[number - 1];
-      console.log(menu);
+      console.log(`execute: ${chalk.green(menu.text)}`);
       menu.exe(user);
     } catch (error) {
       console.error(
