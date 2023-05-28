@@ -23,10 +23,10 @@ inquirer
   ])
   .then((answers) => {
     try {
-      if (answers.user !== 'admin') {
+      if (answers.user !== 'a7x') {
         throw new Error(` User not found! `);
       }
-      if (answers.pass !== 'pass1234') {
+      if (answers.pass !== 'asdf') {
         throw new Error(` Password for user ${chalk.cyan(answers.user)} is wrong! `);
       }
       require(`./menu`).menu(answers.user);

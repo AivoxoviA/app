@@ -36,7 +36,8 @@ const menus = [
     }
   },
 ];
-exports.menu = (user, skip) => {
+
+const main = (user, skip) => {
   let _user = user;
   if (skip) _user = false;
   console.log(`\n`);
@@ -61,7 +62,7 @@ exports.menu = (user, skip) => {
         `Chosen number isn't available!`
       );
       const menu = menus[number - 1];
-      console.log(`execute: ${chalk.green(menu.text)}`);
+      console.log(`\nexecute: ${chalk.green(menu.text)}`);
       menu.exe(user);
     } catch (error) {
       console.error(
@@ -70,4 +71,16 @@ exports.menu = (user, skip) => {
       );
     }
   });
+};
+
+exports.menu = (user, skip) => {
+  const Spinner = require('cli-spinner').Spinner;
+  Spinner.setDefaultSpinnerString(18);
+  const spinner = new Spinner(`Loading main menu %s`);
+  console.log();
+  spinner.start();
+  setTimeout(() => {
+    spinner.stop(true);
+    main(user, skip);
+  }, 3000);
 };
