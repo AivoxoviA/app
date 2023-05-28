@@ -5,7 +5,7 @@ const menus = [
   {
     text: `User management`,
     exe: (user) => {
-      require(`./menu`).menu(user, true);
+      main(user, true);
     },
   },
   {
@@ -18,7 +18,7 @@ const menus = [
     text: `htop statsictics`,
   },
   {
-    text: `Fetch data from Bank Indonesia`,
+    text: `Fetch data from ${chalk.yellow('Bank Indonesia')}`,
     exe: (user) => {
       require(`./fdbi`).main(user);
     },
@@ -26,7 +26,7 @@ const menus = [
   {
     text: `Welcome screen`,
     exe: (user) => {
-      require(`./menu`).menu(user);
+      main(user);
     }
   },
   {
