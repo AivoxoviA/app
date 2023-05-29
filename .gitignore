@@ -1,4 +1,7 @@
 public/images/uang/
 public/images/uang_compressed/
+
+.wwebjs_cache/
+
 node_modules/
 config.json
