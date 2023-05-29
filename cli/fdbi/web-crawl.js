@@ -1,5 +1,6 @@
 class Uang {
-	constructor(nominal, tipe, te, img, judul) {
+	constructor(id, nominal, tipe, te, img, judul) {
+    this.id = id;
 		this.nominal = nominal;
 		this.tipe = tipe;
 		this.te = te;
@@ -31,7 +32,8 @@ const main = async (host, cb, spinner) => {
 			te = info;
 		}
 		const uang = new Uang(
-			parseInt(type.split(' ')[1].replace('.', ''))
+      index
+			, parseInt(type.split(' ')[1].replace('.', ''))
 			, tipe
 			, te
 			, img

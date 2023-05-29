@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "nominal": 100000,
     "tipe": "Kertas",
     "te": 2022,
@@ -7,6 +8,7 @@
     "judul": "Rp 100.000 Kertas"
   },
   {
+    "id": 1,
     "nominal": 50000,
     "tipe": "Kertas",
     "te": 2022,
@@ -14,6 +16,7 @@
     "judul": "Rp 50.000 Kertas"
   },
   {
+    "id": 2,
     "nominal": 20000,
     "tipe": "Kertas",
     "te": 2022,
@@ -21,6 +24,7 @@
     "judul": "Rp 20.000 Kertas"
   },
   {
+    "id": 3,
     "nominal": 10000,
     "tipe": "Kertas",
     "te": 2022,
@@ -28,6 +32,7 @@
     "judul": "Rp 10.000 Kertas"
   },
   {
+    "id": 4,
     "nominal": 5000,
     "tipe": "Kertas",
     "te": 2022,
@@ -35,6 +40,7 @@
     "judul": "Rp 5.000 Kertas"
   },
   {
+    "id": 5,
     "nominal": 2000,
     "tipe": "Kertas",
     "te": 2022,
@@ -42,6 +48,7 @@
     "judul": "Rp 2.000 Kertas"
   },
   {
+    "id": 6,
     "nominal": 1000,
     "tipe": "Kertas",
     "te": 2022,
@@ -49,6 +56,7 @@
     "judul": "Rp 1.000 Kertas"
   },
   {
+    "id": 7,
     "nominal": 100000,
     "tipe": "Kertas",
     "te": 2016,
@@ -56,6 +64,7 @@
     "judul": "Rp 100.000 Kertas"
   },
   {
+    "id": 8,
     "nominal": 50000,
     "tipe": "Kertas",
     "te": 2016,
@@ -63,6 +72,7 @@
     "judul": "Rp 50.000 Kertas"
   },
   {
+    "id": 9,
     "nominal": 20000,
     "tipe": "Kertas",
     "te": 2016,
@@ -70,6 +80,7 @@
     "judul": "Rp 20.000 Kertas"
   },
   {
+    "id": 10,
     "nominal": 10000,
     "tipe": "Kertas",
     "te": 2016,
@@ -77,6 +88,7 @@
     "judul": "Rp 10.000 Kertas"
   },
   {
+    "id": 11,
     "nominal": 5000,
     "tipe": "Kertas",
     "te": 2016,
@@ -84,6 +96,7 @@
     "judul": "Rp 5.000 Kertas"
   },
   {
+    "id": 12,
     "nominal": 2000,
     "tipe": "Kertas",
     "te": 2016,
@@ -91,6 +104,7 @@
     "judul": "Rp 2.000 Kertas"
   },
   {
+    "id": 13,
     "nominal": 1000,
     "tipe": "Kertas",
     "te": 2016,
@@ -98,6 +112,7 @@
     "judul": "Rp 1.000 Kertas"
   },
   {
+    "id": 14,
     "nominal": 100000,
     "tipe": "Kertas",
     "te": 2014,
@@ -105,6 +120,7 @@
     "judul": "Rp 100.000 Kertas"
   },
   {
+    "id": 15,
     "nominal": 100000,
     "tipe": "Kertas",
     "te": 2011,
@@ -112,6 +128,7 @@
     "judul": "Rp 100.000 Kertas"
   },
   {
+    "id": 16,
     "nominal": 50000,
     "tipe": "Kertas",
     "te": 2011,
@@ -119,6 +136,7 @@
     "judul": "Rp 50.000 Kertas"
   },
   {
+    "id": 17,
     "nominal": 20000,
     "tipe": "Kertas",
     "te": 2011,
@@ -126,6 +144,7 @@
     "judul": "Rp 20.000 Kertas"
   },
   {
+    "id": 18,
     "nominal": 10000,
     "tipe": "Kertas",
     "te": 2010,
@@ -133,6 +152,7 @@
     "judul": "Rp 10.000 Kertas"
   },
   {
+    "id": 19,
     "nominal": 2000,
     "tipe": "Kertas",
     "te": 2009,
@@ -140,6 +160,7 @@
     "judul": "Rp 2.000 Kertas"
   },
   {
+    "id": 20,
     "nominal": 50000,
     "tipe": "Kertas",
     "te": 2005,
@@ -147,6 +168,7 @@
     "judul": "Rp 50.000 Kertas"
   },
   {
+    "id": 21,
     "nominal": 10000,
     "tipe": "Kertas",
     "te": 2005,
@@ -154,6 +176,7 @@
     "judul": "Rp 10.000 Kertas"
   },
   {
+    "id": 22,
     "nominal": 1000,
     "tipe": "Koin",
     "te": 2016,
@@ -161,6 +184,7 @@
     "judul": "Rp 1.000 Koin"
   },
   {
+    "id": 23,
     "nominal": 500,
     "tipe": "Koin",
     "te": 2016,
@@ -168,6 +192,7 @@
     "judul": "Rp 500 Koin"
   },
   {
+    "id": 24,
     "nominal": 200,
     "tipe": "Koin",
     "te": 2016,
@@ -175,6 +200,7 @@
     "judul": "Rp 200 Koin"
   },
   {
+    "id": 25,
     "nominal": 100,
     "tipe": "Koin",
     "te": 2016,
@@ -182,6 +208,7 @@
     "judul": "Rp 100 Koin"
   },
   {
+    "id": 26,
     "nominal": 50,
     "tipe": "Koin",
     "te": 1999,
@@ -189,6 +216,7 @@
     "judul": "Rp 50 Koin"
   },
   {
+    "id": 27,
     "nominal": 1000,
     "tipe": "Koin",
     "te": 1993,
@@ -196,6 +224,7 @@
     "judul": "Rp 1.000 Koin"
   },
   {
+    "id": 28,
     "nominal": 100000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -203,6 +232,7 @@
     "judul": "Rp 100.000"
   },
   {
+    "id": 29,
     "nominal": 100000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -210,6 +240,7 @@
     "judul": "Rp 100.000"
   },
   {
+    "id": 30,
     "nominal": 100000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -217,6 +248,7 @@
     "judul": "Rp 100.000"
   },
   {
+    "id": 31,
     "nominal": 100000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -224,6 +256,7 @@
     "judul": "Rp 100.000"
   },
   {
+    "id": 32,
     "nominal": 50000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -231,6 +264,7 @@
     "judul": "Rp 50.000"
   },
   {
+    "id": 33,
     "nominal": 50000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -238,6 +272,7 @@
     "judul": "Rp 50.000"
   },
   {
+    "id": 34,
     "nominal": 20000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -245,6 +280,7 @@
     "judul": "Rp 20.000"
   },
   {
+    "id": 35,
     "nominal": 20000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -252,6 +288,7 @@
     "judul": "Rp 20.000"
   },
   {
+    "id": 36,
     "nominal": 10000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -259,6 +296,7 @@
     "judul": "Rp 10.000"
   },
   {
+    "id": 37,
     "nominal": 10000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -266,6 +304,7 @@
     "judul": "Rp 10.000"
   },
   {
+    "id": 38,
     "nominal": 2000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -273,6 +312,7 @@
     "judul": "Rp 2.000"
   },
   {
+    "id": 39,
     "nominal": 2000,
     "tipe": "Khusus",
     "te": "Uncut Note",
@@ -280,6 +320,7 @@
     "judul": "Rp 2.000"
   },
   {
+    "id": 40,
     "nominal": 75000,
     "tipe": "Khusus",
     "te": "Uang Peringatan Kemerdekaan (UPK) 75",
@@ -287,6 +328,7 @@
     "judul": "Rp 75.000"
   },
   {
+    "id": 41,
     "nominal": 150000,
     "tipe": "Khusus",
     "te": "Children of the world",
@@ -294,6 +336,7 @@
     "judul": "Rp 150.000"
   },
   {
+    "id": 42,
     "nominal": 10000,
     "tipe": "Khusus",
     "te": "Children of the world",
@@ -301,6 +344,7 @@
     "judul": "Rp 10.000"
   },
   {
+    "id": 43,
     "nominal": 850000,
     "tipe": "Khusus",
     "te": "50 Tahun Kemerdekaan RI",
@@ -308,6 +352,7 @@
     "judul": "Rp 850.000"
   },
   {
+    "id": 44,
     "nominal": 300000,
     "tipe": "Khusus",
     "te": "50 Tahun Kemerdekaan RI",
@@ -315,6 +360,7 @@
     "judul": "Rp 300.000"
   },
   {
+    "id": 45,
     "nominal": 500000,
     "tipe": "Khusus",
     "te": "100 tahun Pemimpin R.I.",
@@ -322,6 +368,7 @@
     "judul": "Rp 500.000"
   },
   {
+    "id": 46,
     "nominal": 500000,
     "tipe": "Khusus",
     "te": "100 tahun Pemimpin R.I.",
@@ -329,6 +376,7 @@
     "judul": "Rp 500.000"
   },
   {
+    "id": 47,
     "nominal": 25000,
     "tipe": "Khusus",
     "te": "100 tahun Pemimpin R.I.",
@@ -336,6 +384,7 @@
     "judul": "Rp 25.000"
   },
   {
+    "id": 48,
     "nominal": 25000,
     "tipe": "Khusus",
     "te": "100 tahun Pemimpin R.I.",
