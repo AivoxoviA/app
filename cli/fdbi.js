@@ -16,6 +16,14 @@ const menus = [
     },
   },
   {
+    text: `Download images for the data`,
+    exe: (user) => {
+      require(`./fdbi/download-images`).exe(() => {
+        options(user);
+      });
+    },
+  },
+  {
     text: `Exit`,
     exe: (user) => {
       back(user);
