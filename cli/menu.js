@@ -9,13 +9,18 @@ const menus = [
     },
   },
   {
-    text: `VIM codes`,
+    text: `${
+      chalk.red('VIM')
+    } initial setup`,
   },
   {
-    text: `tmux cheatsheet`,
+    text: `cheatsheet for ${chalk.green('tmux')}`,
   },
   {
-    text: `htop statsictics`,
+    text: `${chalk.yellow('htop')} statsictics`,
+  },
+  {
+    text: `colors cheatsheet ${chalk.blue('chalk')}`,
   },
   {
     text: `Fetch data from ${chalk.yellow('Bank Indonesia')}`,
@@ -24,13 +29,13 @@ const menus = [
     },
   },
   {
-    text: `Welcome screen`,
+    text: `${chalk.magenta('Welcome')} screen`,
     exe: (user) => {
       main(user);
     }
   },
   {
-    text: `Exit CLI`,
+    text: `Exit ${chalk.bgBlack.white(' CLI ')}`,
     exe: () => {
       console.log(chalk.bgCyan(` Gracefully exiting system... `));
     }

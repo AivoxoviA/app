@@ -24,6 +24,14 @@ const menus = [
     },
   },
   {
+    text: `Compress downloaded images`,
+    exe: (user) => {
+      require(`./fdbi/compress-images`).exe(() => {
+        options(user);
+      });
+    },
+  },
+  {
     text: `Exit`,
     exe: (user) => {
       back(user);
