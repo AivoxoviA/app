@@ -1,5 +1,4 @@
 require('./discord/bot/index');
-require('./whatsapp/index');
 
 var createError = require('http-errors');
 var express = require('express');
