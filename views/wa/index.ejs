@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="/images/logo.png">
+	<title><%= title %></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="<%= themeColor %>" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+  <script src="/js/app.js"></script>
+  <style>
+    #qr img {
+      width: 256px;
+      height: 256px;
+    }
+  </style>
+</head>
+<body onload="body_loadHander()" >
+<div class="section">
+  <form name="qrForm">
+    <div style="display: none">
+      <span>TypeNumber:</span>
+      <select name="t"></select>
+      <span>ErrorCorrectionLevel:</span>
+      <select name="e">
+        <option value="L">L(7%)</option>
+        <option value="M" selected="selected">M(15%)</option>
+        <option value="Q">Q(25%)</option>
+        <option value="H">H(30%)</option>
+      </select>
+      <span>Mode:</span>
+      <select name="m">
+        <option value="Numeric">Numeric</option>
+        <option value="Alphanumeric">Alphanumeric</option>
+        <option value="Byte" selected>Byte</option>
+        <option value="Kanji">Kanji</option>
+      </select>
+      <span>Multibyte:</span>
+      <select name="mb">
+        <option value="default">None</option>
+        <option value="SJIS">SJIS</option>
+        <option value="UTF-8" selected>UTF-8</option>
+      </select>
+      <br/>
+      <textarea name="msg" rows="10" cols="40"><%= qr %></textarea>
+      <br/>
+      <input type="button" value="update" onclick="update_qrcode()"/>
+    </div>
+    <div style="text-align: center" id="qr"></div>
+  </form>
+  <div style="display: none">
+    <h3>Appendix (data capacity in bytes)</h3>
+    <div id="dataCaps"></div>
+  </div>
+</div>
+</body>
+</html>
