@@ -1,3 +1,4 @@
+console.log('whatsapp process starting...');
 const qrcode = require('qrcode-terminal');
 
 const { Client } = require('whatsapp-web.js');
